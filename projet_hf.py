@@ -4,6 +4,9 @@ import numpy as np
 import pandas as pd
 from huggingface_hub import hf_hub_download
 
+from features_reg import AddBasicFeaturesClass, AddTopFeatures, HierarchicalImputer
+from features_clf import AddTopFeaturesClf
+
 # Charger les modèles depuis HuggingFace
 path_reg = hf_hub_download(
     repo_id="untiiis/game_sale",
