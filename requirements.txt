@@ -4,3 +4,4 @@ numpy
 scikit-learn
 joblib
 huggingface_hub
+category_encoders
