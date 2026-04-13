@@ -1,7 +1,7 @@
 streamlit
 pandas
-numpy
-scikit-learn
+scikit-learn==1.4.2
+numpy==2.0.0
 joblib
 huggingface_hub
 category_encoders
